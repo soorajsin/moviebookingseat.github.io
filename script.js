@@ -1,3 +1,13 @@
+// loading part
+var preloader = document.getElementById('loading');
+
+function myFunction() {
+  preloader.style.display = 'none';
+}
+
+
+
+
 const container = document.querySelector(".container");
 const seats = document.querySelectorAll(".row .seat:not(.sold)");
 const count = document.getElementById("count");
